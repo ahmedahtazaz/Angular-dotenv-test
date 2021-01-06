@@ -1,5 +1,5 @@
 const env = {
-  test: process.env.TEST2 || 'default_Test2',
+  test: process.env.SECRET || 'default_Test2',
 };
 
 module.exports = () => {
